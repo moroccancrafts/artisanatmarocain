@@ -1,0 +1,32 @@
+h1{
+	text-align:center;  text-shadow: 2px 2px 4px  black; text-decoration : underline;  font-family: Algerian,arial; font-weight: bold; font-size: 80px;
+  }
+body{
+	background-image:  url("zh1.jpg") ;
+}
+.img {
+width:650px;
+border:1px solid black;
+}
+a:link {
+    color: brown;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #3b2712;
+}
+
+/* selected link */
+a:active {
+    color: #f3e6d8;
+}
+p{
+	text-align:center; color:#996633;  font-family: BankGothic Md BT,arial; font-weight: bold;
+ }
+ td{border: 4px #d2a679 groove;  box-shadow: 2px 2px 2px brown;}

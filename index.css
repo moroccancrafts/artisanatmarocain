@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: century gothic;
+}
+header{
+  background-image:/*linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),*/ url(6.jpg);
+  height: 70vh;
+  background-size: cover;
+  
+}
+ul{
+
+  float: left;
+  list-style-type: none;
+  margin-top: 25px
+}
+ul li {
+  display: inline-block;
+}
+ul li a{
+  font-size: 20px ;
+  font-weight:bold;
+  text-decoration: none;
+  color: #FFF;
+  padding: 5px 20px;
+  border: 1px solid #000;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: #DEB887;
+  color: black;
+}
+ul li.active a{
+  background-color: #DEB887;
+  color: black;
+}
+.logo img{
+  width:170px; 
+  height:120px;
+    float:left;
+    border-image: solid;
+  
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+/*.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}*/
+h1{
+  text-align:center; text-shadow: 2px 2px 4px  black; text-decoration : underline; font-family: Algerian,arial; font-weight: bold; font-size: 80px;
+  }
+body {
+  background-color: #FFEBCD;
+  /*background-image: url(5.jpg);*/
+}
+h4{
+  text-align:center; text-shadow: 2px 2px 4px #4d3319 ; color: black  ; text-decoration : underline; font-family: arial; font-weight: bold;font-size: 40px ;
+  }
+h3{
+  text-align:center; text-shadow: 2px 2px 4px #734d26;text-align:left;margin: 70px;text-shadow: 10px 10px 10px ;color:brown ; text-decoration : underline; font-family: BankGothic Md BT,arial; font-weight: bold;font-size: 60px ;
+  }
+
+
+img {
+border:1px solid black;
+}
+a:link {
+    color: #FFF;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+   background-color: #FFEBCD;
+  color: black;
+}
+
+/* selected link */
+a:active {
+    color: #f3e6d8;
+}
+h2{
+text-align:center; text-shadow: 2px 2px 4px #734d26;font-size: 30px; color:#996633; text-decoration : underline; font-family: BankGothic Md BT,arial; font-weight: bold; 
+}
+.selec{
+   font-family: Arial,sans serif;
+   font-size: 20px;
+   box-shadow: 6px 6px 6px 6px black;
+     border:groove black;
+
+}
+a{
+  font-weight: bold 40px;
+  text-shadow: 5px 5px 5px 5px; 
+  box-shadow: 4px 4px 4px 4px black; 
+  border: 2px solid black;
+}
+.categories {
+  margin: 70px
+}
+.sml{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}

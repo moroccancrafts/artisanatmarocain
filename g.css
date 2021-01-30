@@ -1,0 +1,116 @@
+body {
+	background-image: url("image/arriere.jpeg");
+	 background-repeat: no-repeat;
+	  background-size: cover;
+
+}
+.cv{
+	width: 800px;
+	background:#fff;
+	margin: 25px auto;
+	display: flex;
+   box-shadow: 15px 15px 12px  #4CF69C; 
+}
+.gauche {
+	background:#07CBB3 ;
+	width: 300px;
+	padding: 0 20px; 
+	color: white;
+
+}
+.droite{
+	width: calc(100% - 250px);
+	color: #490FB7 ;
+
+}
+.droite ul{
+	padding: 15px;
+}
+
+.gauche .icone img{
+	width: 40px;
+
+}
+.gauche .image {
+	text-align: center;
+	padding: 20px 0;
+
+}
+.gauche .image img{
+	width: 120px;
+	border-radius: 30px;
+}
+.gauche .titre {
+	text-align: center;
+	
+
+}
+
+a:link 
+{ 
+ text-decoration:none;
+
+ }
+ .titre {
+ 	font-size: 24;
+ 	font-weight: 900;
+ 	text-align: center;
+ 	width: auto;
+ 	background: #3DD2C0;
+ 	box-shadow: 6px 6px 6px #5A6A81;
+ }
+ .cadre {
+ 	width: auto;
+ 	border-radius: 30px;
+ 	box-shadow: 6px 6px 6px #5A6A81;
+ }
+ .skills ul,.hobbies ul{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-between;
+
+ 	
+ 	 }
+ .skills ul li , .hobbies ul li {
+ 	width: 100px;
+ 	height: 100px;
+ 	margin-bottom: 15px;
+ 	border-radius: 15px;
+ 	background: #fff;
+ 	list-style: none;
+ 	text-align: center;
+
+ 	
+ 
+
+
+ }
+.skills ul li img , .hobbies ul li img {
+  width: 60px;
+  padding: 15px;
+ }
+  .header {
+  	background: #07CBB3 ;
+  	padding: 15px 30px;
+  	color: #0A3B6C ;
+  	height: 100px
+  }
+  .header .name{
+  	font-size: 24px;
+  	font-weight: 700;
+  }
+
+
+  .logo img{
+	width:170px; 
+	height:120px;
+    float:left;
+    border-image: solid;
+}
+h1{
+	text-align:center; text-shadow: 2px 2px 4px  black; text-decoration : underline; font-family: Algerian,arial; font-weight: bold; font-size: 80px;
+  }
+  body {
+	background-color: #FFEBCD;
+	/*background-image: url(5.jpg);*/
+}

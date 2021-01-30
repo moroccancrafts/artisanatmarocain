@@ -1,0 +1,82 @@
+<html>
+
+<head>
+<title>Inscrivez-vous</title>
+<script src="script.js"></script>
+<link rel="stylesheet" href="g.css" type="text/css" >
+<script src="g.js"></script>
+</head>
+<body>
+			<p>
+		<div class="main">
+			<div class="logo">
+				<img src="3.jpg">
+			</div><h1> moroccan crafts </h1></p>
+	<center><h2>formule d'achat</h2></center>
+    
+
+    <div style="border:1px solid #ddd; padding: 5px;">
+    <form name="form" method="GET" action="g.html" onsubmit = "return validateForm()">
+    	<h3>Informations de Contact</h3>
+    	<label>Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name = "email" id="email" placeholder="Votre email" onchange="validateEmail(email)"/>
+        <br><br>
+        <h3>adresse de livraison</h3>
+        <label>Nom :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="nom" id="nom" placeholder="Votre nom" onchange="nomValidate()"/>
+        <!--on utilise &nbsp; pour indiquer un espace-->
+        <br><br>
+        <label>Prénom :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" onchange="prenomValidate()" />
+        <br><br>
+        
+        <label>Téléphone:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  name = "telephone" id="telephone" onchange="teleValidate()">
+        <br><br>
+	    <label>Pays</label>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="pays" id="pays"  type="text"  onchange="Votrepays()"/>
+        <br><br>
+				<optgroup label="L'Afrique:">
+					<option>maroc</option>
+					<option>Algerie</option>
+					<option>Tunisie</option>
+					<option>Egypte</option>
+				</optgroup>
+				<optgroup label="Europe:">
+					<option>france</option>
+					<option>Italie</option>
+					<option>Ispan</option>
+					<option>Germany</option><br>
+				</optgroup>
+				<optgroup label="L'amérique du Nord:">
+					<option>Canada</option>
+					<option>USA</option>
+			   </optgroup>
+				<optgroup label="Asie:">
+					<option>Ouzbékistan</option>
+					<option>Japon</option>
+					<option>Macao</option>
+					<option>Mongolie</option>
+				</optgroup>
+                <br><br>
+        <label>ville :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="ville" id="ville" placeholder="Votre ville" onchange="villeValidate()"/>
+        
+	             
+		<h3>Produits achetés</h3>
+		    <label>nombre des produits a acheter :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="nomp" id="nomp" placeholder="nombre des produits a acheter" onchange="numberValidate()" /><br>
+		    <label>numero des produits :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="num" id="num" placeholder="numero du produit" onchange="numberValidate()" /><br>
+		    <label>nombre de quantité du produit :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="nom" id="nom" placeholder="nombre de quantité du produit" onchange="numberValidate()" /><br>
+			
+        <br><br>
+        <h3>paiement</h3>
+
+        <p>
+
+         payer par :<br />
+         <input type="radio" name="payer" value="paypal" id="paypal" /> <label for="paypal">paypal</label><br />
+         <input type="radio" name="payer" value="mcarte" id="mcarte" /> <label for="mcarte">master carte</label><br />
+        </p>				
+        <button type="submit">Envoyer</button>
+        <button type="reset">Annuler</button>
+        </form>
+       </div>
+   </body>
+</html>
+<head>
+<script src="script.js"></script>
+</head>
