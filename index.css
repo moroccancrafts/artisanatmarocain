@@ -71,12 +71,12 @@ img {
 border:1px solid black;
 }
 a:link {
-    color: #FFF;
+    color: black;
 }
 
 /* visited link */
 a:visited {
-    color: black;
+    color: brown;
 }
 
 /* mouse over link */
