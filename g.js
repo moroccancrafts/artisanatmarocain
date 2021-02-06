@@ -1,4 +1,4 @@
-function requiredElement() {
+function validateForm() {
 var nom = document.getElementById("nom").value;
 var prenom = document.getElementById("prenom").value;
 var email = document.getElementById("email").value;
@@ -111,7 +111,7 @@ return false;
 }
 function teleValidate() { 
 
-var numero = /^[0-9]+$/;
+var numero = /[0-9]\d{10}/;
 var numero = document.getElementById("telephone");
 if(telephone.value.match(numero)) {
 document.getElementById("telephone").style.backgroundColor="white";
@@ -171,5 +171,5 @@ document.getElementById("num").style.backgroundColor="red";
 document.getElementById("num").focus();
 }
 }
-confirm('Etes vous sur de votre commande ?');
+
 

@@ -1,4 +1,4 @@
-alert('bonjour');
+
 function test(){
 confirm('Etes vous sur de vouloire Quitter ce menu?');
 }
