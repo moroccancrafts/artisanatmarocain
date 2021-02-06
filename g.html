@@ -58,6 +58,24 @@
         
 	             
 		<h3>Produits achetés</h3>
+
+            <p>
+            	<label for="categorie">la categorie du produit</label><br />
+	            <select name="categorie" id="categorie">
+	            	<option value="agadir">Agadir</option>
+		            <option value="tanger">Tanger</option>
+		            <option value="casablanca">Casablanca</option>
+		            <option value="rabat">Rabat</option>
+		            <option value="marrakech">Marrakech</option>
+		            <option value="autre">Autre</option>
+	            </select>
+	
+
+            </p>
+
+
+
+
 		    <label>nombre des produits a acheter :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="nomp" id="nomp" placeholder="nombre des produits a acheter" onchange="numberValidate()" /><br>
 		    <label>numero des produits :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="num" id="num" placeholder="numero du produit" onchange="numberValidate()" /><br>
 		    <label>nombre de quantité du produit :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="nom" id="nom" placeholder="nombre de quantité du produit" onchange="numberValidate()" /><br>
@@ -71,12 +89,9 @@
          <input type="radio" name="payer" value="paypal" id="paypal" /> <label for="paypal">paypal</label><br />
          <input type="radio" name="payer" value="mcarte" id="mcarte" /> <label for="mcarte">master carte</label><br />
         </p>				
-        <button type="submit">Envoyer</button>
+        <button type="submit" >Envoyer</button>
         <button type="reset">Annuler</button>
         </form>
        </div>
    </body>
 </html>
-<head>
-<script src="script.js"></script>
-</head>
